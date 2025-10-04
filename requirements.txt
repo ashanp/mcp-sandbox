@@ -1,0 +1,5 @@
+mcp  # Model Context Protocol SDK
+fastapi  # For building lightweight MCP servers (if needed)
+uvicorn  # ASGI server to run FastAPI apps
+requests  # For making API calls from tools
+python-dotenv  # Manage environment variables
