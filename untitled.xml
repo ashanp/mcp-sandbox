@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+	<InvoiceTotals>
+		<InvoiceInfo InvoiceNumber="TEST0123456789TEST" AccountNumber="9999888877" Billissuedate="20251105" InvoiceStartDate="20251006" InvoiceEndDate="20251105" BillingAccountId="BA000TEST4567" Language="EN" Custcode="1.9876543" Customer_id="CUST98765" CBCMCustomer_id="1234567" UserId="TESTUSER" Etisalat_VATnumber="100023129800003" Customer_VATnumber="VAT987654" CreditLimit="5000.00" Account_id="700098765" BMId="T0000" ContractPeriodFrom="20240101" ContarctPeriodTo="20251231" PlanName="Example Postpaid Plan"/>
+		<QuickPaylink Url="https://www.etisalat.ae/ecare/c/quick-pay?locale=en&amp;acct=9999888877"/>
+		<CurrentCharges Type="MCT">
+			<CurrentSummary>
+				<Det Description="Plan, Add-ons &amp; Devices" EN_Description="Plan, Add-ons &amp; Devices" AR_Description="الباقة، المزايا الإضافية والأجهزة" Amount="250.00" Attrb3="RECURRING"/>
+				<Det Description="Out of plan usage charges" EN_Description="Out of plan usage charges" AR_Description="رسوم الاستخدام خارج الباقة" Amount="15.50" Attrb3="USAGE"/>
+				<Det Description="One-time charges" EN_Description="One-time charges" AR_Description="رسوم تُدفع لمرة واحدة" Amount="50.00" Attrb3="ONETIMECHARGE"/>
+				<Det Description="Promotions, Refunds &amp; Adjustments" EN_Description="Promotions, Refunds &amp; Adjustments" AR_Description="العروض، المستردات والتسويات" Amount="-10.00" Attrb3="BENIFITSANDDISCOUNTS"/>
+				<Det Description="Value added services (VAS) &amp; 3rd party charges" EN_Description="Value added services (VAS) &amp; 3rd party charges" AR_Description="والأطراف الأخرى (VAS) رسوم خدمات القيمة المضافة" Amount="5.00" Attrb3="VASAND3RDPATY"/>
+				<Det Description="VAT on taxable services" EN_Description="VAT on taxable services" AR_Description="ضريبة القيمة المضافة على الخدمات الخاضعة للضريبة" Amount="15.78" Attrb3="VAT"/>
+				<Det Description="Current month charges (including VAT 5%)" EN_Description="Current month charges (including VAT 5%)" AR_Description="رسوم الشهر الحالي (يشمل 5% ضريبة القيمة المضافة)" Amount="326.28" Attrb3="CURRENTMONTHCHARGE"/>
+				<Det Description="Payment Due By" EN_Description="Payment Due By" AR_Description="تاريخ استحقاق الدفع" Value="20251120" Attrb3="DUEDATE"/>
+				<Det Description="Grand total (Incl 5% VAT)" EN_Description="Grand total (Incl 5% VAT)" AR_Description="المجموع الكلي (يشمل 5% ضريبة القيمة المضافة)" Amount="545.28" Attrb3="DUEAMOUNT"/>
+			</CurrentSummary>
+			<PreviousMonth>
+				<Det Description="Balance from your last bill" EN_Description="Balance from your last bill" AR_Description="تاريخ استحقاق الدفع" Amount="219.00" Attrb3="PREVMONTHBAL"/>
+				<Det Description="Payments processed" EN_Description="Payments processed" AR_Description="الدفعات المستلمة" Amount="0.00" Attrb3="PAYMENTS"/>
+				<Det Description="Adjustments - Previous months" EN_Description="Adjustments - Previous months" AR_Description="تسويات – الأشهر السابقة" Amount="0.00" Attrb3="IMMEDIATEADJUSTMENTS"/>
+				<Det Description="Vat Credits - Previous periods" EN_Description="Vat Credits - Previous periods" AR_Description="ضريبة القيمة المضافة على التسويات الدائنة للفواتير السابقة" Amount="0.00" Attrb3="VATCREDIT"/>
+				<Det Description="Vat Debits - Previous periods" EN_Description="Vat Debits - Previous periods" AR_Description="ضريبة القيمة المضافة على التسويات المدينة للفواتير السابقة" Amount="0.00" Attrb3="VATDEBIT"/>
+				<Det Description="Remaining amount from your previous bills (including VAT 5%)" EN_Description="Remaining amount from your previous bills (including VAT 5%)" AR_Description="المبلغ المتبقي من فواتيرك السابقة (يشمل 5% ضريبة القيمة المضافة)" Amount="219.00" Attrb3="CARRYFARWORDAMOUNT"/>
+			</PreviousMonth>
+		</CurrentCharges>
+		<AutopayText Text="Simply set up Autopay to effortlessly pay for your bills"/>
+		<Sec_circles Name="TOTAL USAGE SUMMARY" EN_Name="TOTAL USAGE SUMMARY" AR_Name="ملخص إجمالي الاستخدام">
+			<Det Description="LOCAL CALLS" EN_Description="LOCAL CALLS" AR_Description="المكالمات المحلية" Value="50" Units="Minutes"/>
+			<Det Description="INTERNATIONAL CALLS" EN_Description="INTERNATIONAL CALLS" AR_Description="المكالمات الدولية" Value="10" Units="Minutes"/>
+			<Det Description="ROAMING CALLS" EN_Description="ROAMING CALLS" AR_Description="مكالمات التجوال" Value="5" Units="Minutes"/>
+			<Det Description="LOCAL DATA" EN_Description="LOCAL DATA" AR_Description="البيانات المحلية" Value="15.75" Units="GB"/>
+			<Det Description="ROAMING DATA" EN_Description="ROAMING DATA" AR_Description="بيانات التجوال" Value="0.5" Units="GB"/>
+			<Det Description="SMS" EN_Description="SMS" AR_Description="الرسائل النصية القصيرة" Value="20" Units="NA"/>
+		</Sec_circles>
+		<Sec_Barchart Name="B I L L   H I S T O R Y" EN_Name="B I L L   H I S T O R Y" AR_Name="سجل الفواتير" From_Date="20250601" To_Date="20251105" Text="Including VAT">
+			<Det Month="20250601" Value="350.00"/>
+			<Det Month="20250701" Value="250.50"/>
+			<Det Month="20250801" Value="480.25"/>
+			<Det Month="20250901" Value="280.75"/>
+			<Det Month="20251001" Value="326.28"/>
+		</Sec_Barchart>
+		<Smiles_Points_Summary Smiles_Tier="Gold" Smiles_Tier_EN="Gold" Smiles_Tier_AR="الذهب" Start_Date="20251006" End_Date_Timestamp="20251105120000" Next_Tier_Points="15000" Points_Start="1500" Points_Earned="350" Points_Redeemed="50" Points_Expired="0" Total_Smiles_Points="1700" Next_Points_To_Expire="100" Next_Expiry_Date="20260131"/>
+		<AddressInfo BarcodeString="0$TEST0123456789TEST$9999888877" EnglishName="Test Customer Name" ArabicName="اسم العميل التجريبي" PoBox="12345" AddrLine1="Unit 101, Test Building" AddrLine2="Sheikh Zayed Road" City="Abu Dhabi" State="Emirate of Abu Dhabi" Etisalat_Address="Etisalat Office" eMailId="test.customer@example.com" Primary_number="0509999999"/>
+		<Sec_Barchart Name="Your bill is lower this month by" EN_Name="Your bill is lower this month by" AR_Name="مبلغ الفاتورة هذا الشهر أقل بمقدار" From_Date="20251105" To_Date="20251006" Total_Amount="15.22" Text="(Incl 5% VAT)">
+			<Det Description="Plan, Add-ons &amp; Devices" EN_Description="Plan, Add-ons &amp; Devices" AR_Description="الباقة، المزايا الإضافية والأجهزة" PrevMonAmount="250.00" CurrentMonAmount="250.00"/>
+			<Det Description="Out of plan usage charges" EN_Description="Out of plan usage charges" AR_Description="رسوم الاستخدام خارج الباقة" PrevMonAmount="30.00" CurrentMonAmount="15.50"/>
+			<Det Description="One-time charges" EN_Description="One-time charges" AR_Description="رسوم تُدفع لمرة واحدة" PrevMonAmount="100.00" CurrentMonAmount="50.00"/>
+			<Det Description="Promotions, Refunds &amp; Adjustments" EN_Description="Promotions, Refunds &amp; Adjustments" AR_Description="العروض، المستردات والتسويات" PrevMonAmount="-10.00" CurrentMonAmount="-10.00"/>
+			<Det Description="Value added services (VAS) &amp; 3rd party charges" EN_Description="Value added services (VAS) &amp; 3rd party charges" AR_Description="والأطراف الأخرى (VAS) رسوم خدمات القيمة المضافة" PrevMonAmount="5.00" CurrentMonAmount="5.00"/>
+			<Det Description="VAT on taxable services" EN_Description="VAT on taxable services" AR_Description="ضريبة القيمة المضافة على الخدمات الخاضعة للضريبة" PrevMonAmount="18.75" CurrentMonAmount="15.78"/>
+		</Sec_Barchart>
+		<section_2TIER Name="Bill Change Summary" EN_Name="Bill Change Summary" AR_Name="ملخص تغييرات الفاتورة" From_Date="20251105" To_Date="20251006">
+			<Det Description="Local calls" PrevMonAmount="5.00" CurrentMonAmount="0.00"/>
+			<Det Description="International calls" PrevMonAmount="10.00" CurrentMonAmount="5.00"/>
+			<Det Description="Incoming roaming calls *" PrevMonAmount="15.00" CurrentMonAmount="10.50"/>
+			<Det Description="One-time setup fee" PrevMonAmount="50.00" CurrentMonAmount="0.00"/>
+			<Det Description="Subscriptions and Downloads *" PrevMonAmount="20.00" CurrentMonAmount="5.00"/>
+		</section_2TIER>
+	</InvoiceTotals>
+	<Contract Account_number="9999888877" Contract_id="SA-700098765" Date="20251105" FromDate="20251006" ToDate="20251105">
+		<section_3TIER Name="Plan, Add-ons &amp; Devices" EN_Name="Plan, Add-ons &amp; Devices" AR_Name="الباقة، المزايا الإضافية والأجهزة" Total_Amount="250.00" Attrb1="12.50">
+			<Sub_sectionA Name="Add-ons" EN_Name="Add-ons" AR_Description="المزايا الإضافية" Type_Sec="PACKAGERENTAL" Sub_total="50.00" Attrb1="2.50">
+				<Det Description="Test Value Added Service" EN_Description="Test Value Added Service" AR_Description="خدمة القيمة المضافة التجريبية" Amount="50.00" Attrb1="2.50" From_Date="20251006" To_Date="20251105" SubscriptionDate="20251006" CrmSubscriptionId="11999999999" MultiplePurchaseFlag="N" SERVICENUMBER="0509999999" Attrb2="RPTESTVAS_01"/>
+			</Sub_sectionA>
+			<Sub_sectionA Name="Devices" EN_Name="Devices" AR_Name="الأجهزة" Type_Sec="DEVICES" Sub_total="200.00" Attrb1="10.00">
+				<Det Description="Test Device Installment Plan - 12 Months" EN_Description="Test Device Installment Plan - 12 Months" AR_Description="خطة تقسيط الجهاز التجريبي - 12 شهرًا" Amount="200.00" Attrb1="10.00" Bal_months="8 " From_Date="20251006" To_Date="20251105" SubscriptionDate="20251006" CrmSubscriptionId="11888888888" MultiplePurchaseFlag="N" Attrb2="RPDLTESTDEVICE001"/>
+			</Sub_sectionA>
+		</section_3TIER>
+		<UsageSummary Total_Amount="15.50" Attrb1="0.78" Name="Out of plan usage charges" EN_Name="Out of plan usage charges" AR_Name="رسوم الاستخدام خارج الباقة">
+			<Det Description="International calls" Amount="10.50"/>
+			<Det Description="Roaming Data" Amount="5.00"/>
+		</UsageSummary>
+		<section_3TIER Name="One-time charges" EN_Name="One-time charges" AR_Name="رسوم تُدفع لمرة واحدة" Total_Amount="50.00" Attrb1="2.50">
+			<Det Description="Setup Fee" EN_Description="Setup Fee" AR_Description="رسوم الإعداد" Amount="50.00" Attrb1="2.50"/>
+		</section_3TIER>
+		<section_3TIER Name="Promotions, Refunds &amp; Adjustments" EN_Name="Promotions, Refunds &amp; Adjustments" AR_Name="العروض، المستردات والتسويات" Total_Amount="-10.00" Attrb1="-0.50">
+			<Det Description="Loyalty Discount" EN_Description="Loyalty Discount" AR_Description="خصم الولاء" Amount="-10.00" Attrb1="-0.50"/>
+		</section_3TIER>
+		<section_3TIER Name="Value added services (VAS) &amp; 3rd party charges" EN_Name="Value added services (VAS) &amp; 3rd party charges" AR_Name="والأطراف الأخرى (VAS) رسوم خدمات القيمة المضافة" Total_Amount="5.00" Attrb1="0.25">
+			<Det Description="Third Party Subscription" EN_Description="Third Party Subscription" AR_Description="اشتراك الطرف الثالث" Amount="5.00" Attrb1="0.25"/>
+		</section_3TIER>
+		<section_3TIER Name="VAT on taxable services" EN_Name="VAT on taxable services" AR_Name="ضريبة القيمة المضافة على الخدمات الخاضعة للضريبة" Total_Amount="15.78" Attrb1="0.00">
+			<Det Description="Services subject to VAT" EN_Description="Services subject to VAT" AR_Description="الخدمات الخاضعة لضريبة القيمة المضافة" Invoice_Taxable_amount="315.50" Invoice_Tax_RatePercent="5" Invoice_tax_applied="15.78"/>
+			<Det Description="Services subject to VAT" EN_Description="Services subject to VAT" AR_Description="الخدمات الخاضعة لضريبة القيمة المضافة" Invoice_Taxable_amount="0.00" Invoice_Tax_RatePercent="0" Invoice_tax_applied="0.00"/>
+			<Det Description="Services not subject to VAT" EN_Description="Services not subject to VAT" AR_Description="الخدمات غير الخاضعة لضريبة القيمة المضافة" Invoice_Taxable_amount="0.00" Invoice_Tax_RatePercent="0" Invoice_tax_applied="0.00"/>
+		</section_3TIER>
+		<section_3TIER Name="Payments processed" EN_Name="Payments processed" AR_Name="الدفعات المستلمة" Total_Amount="0.00" Attrb1="0.00"></section_3TIER>
+		<Usage>
+			<GroupName_Detail Desc="Data" EN_Description="Data" AR_Description="البيانات">
+				<SubGroupName_Detail Desc="Local data" EN_Description="Local data" AR_Description="البيانات المحلية" Duration="15.75" Amount="0.00">
+					<Det SourceNum="In plan / add-ons usage" Value="15.75" Charge="0"/>
+				</SubGroupName_Detail>
+				<SubGroupName_Detail Desc="Roaming data" EN_Description="Roaming data" AR_Description="بيانات التجوال" Duration="0.5" Amount="5.00">
+					<Det SourceNum="Out of plan usage" Value="0.5" Charge="5.00"/>
+				</SubGroupName_Detail>
+			</GroupName_Detail>
+		</Usage>
+	</Contract>
+</Invoice>
